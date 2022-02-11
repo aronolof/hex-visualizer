@@ -7,7 +7,7 @@
     let re1 = /^#[0-9A-F]{4}$/i;
     let re2 = /^#[0-9A-F]{6}$/i;
     let re3 = /^#[0-9A-F]{8}$/i;
-	
+
     function updateArray() {
         hexcodeArray = value.replace(/"/g, "").trim().split(/[\n\s,]+/);
         boxStyles = hexcodeArray.map(function(item){
