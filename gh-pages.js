@@ -1,9 +1,12 @@
 var ghpages = require('gh-pages');
 
-console.log(ghpages);
-
 ghpages.publish(
 	'public',
+	{
+		branch: 'gh-pages',
+		repo: 'https://github.com/aronolof/hexviz.git',
+		dotfiles: true
+	},
 	() => {
 		console.log('Deploy Complete!');
 	}
