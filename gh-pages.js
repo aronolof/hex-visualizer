@@ -4,7 +4,7 @@ ghpages.publish(
 	'public',
 	{
 		branch: 'gh-pages',
-		repo: 'https://github.com/aronolof/hexviz.git',
+		repo: 'https://github.com/aronolof/hex-visualizer.git',
 		dotfiles: true
 	},
 	() => {
